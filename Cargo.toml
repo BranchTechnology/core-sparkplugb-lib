@@ -1,0 +1,13 @@
+[package]
+name = "spark-rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+protoc-rust = "2.27.1"
+chrono = "0.4.19"
+protobuf = "2.27.1"
+quick-xml = {version="0.22.0", features = ["serialize"]}
+serde = {version="1.0.136", features = ["derive"]}
