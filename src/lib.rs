@@ -1,4 +1,7 @@
 pub mod sparkplug_b;
+mod spark_error;
+mod schema;
+mod proto;
 
 use crate::sparkplug_b::{Payload, Payload_Metric, Payload_DataSet, Payload_Template};
 use chrono;
